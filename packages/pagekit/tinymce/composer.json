@@ -1,0 +1,33 @@
+{
+  "name": "pagekit/tinymce",
+  "type": "pagekit-extension",
+  "version": "1.0.2",
+  "title": "TinyMCE",
+  "description": "Replace Pagekit's default editor with TinyMCE.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pagekit",
+      "email": "info@pagekit.com",
+      "homepage": "http://pagekit.com"
+    }
+  ],
+  "extra": {
+    "icon": "icon.svg",
+    "scripts": "scripts.php"
+  },
+  "archive": {
+    "exclude": [
+      "node_modules",
+      "!/app",
+      "*.less",
+      "/app/assets/tinymce/skins",
+      "/app/assets/tinymce/tinymce.js",
+      "/app/assets/tinymce/tinymce.min.js",
+      "/app/assets/tinymce/tinymce.jquery.js",
+      "/app/assets/tinymce/jquery.tinymce.min",
+      "/app/assets/tinymce/plugins/**/*.js",
+      "!/app/assets/tinymce/plugins/**/*.min.js"
+    ]
+  }
+}

@@ -1,0 +1,527 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b4520a2b4df50256fab582d1fbc62d6c",
+    "content-hash": "d057c8af6c9d7381c2124684b984ebd7",
+    "packages": [
+        {
+            "name": "abeautifulsite/simpleimage",
+            "version": "2.5.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/claviska/SimpleImage.git",
+                "reference": "5be7b5c912b94b85b20e423b9b8bd4680ccaa53b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/claviska/SimpleImage/zipball/5be7b5c912b94b85b20e423b9b8bd4680ccaa53b",
+                "reference": "5be7b5c912b94b85b20e423b9b8bd4680ccaa53b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "abeautifulsite": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nazar Mokrynskyi",
+                    "email": "nazar@mokrynskyi.com",
+                    "homepage": "http://cleverstyle.org/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Cory LaViska",
+                    "homepage": "http://www.abeautifulsite.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP class that simplifies working with images",
+            "time": "2015-08-08 06:11:41"
+        },
+        {
+            "name": "bixie/breadcrumbs",
+            "version": "0.9.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/bixie/breadcrumbs/0.9.0.zip",
+                "reference": null,
+                "shasum": ""
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bixie",
+                    "email": "info@bixie.org",
+                    "homepage": "http://www.bixie.org"
+                }
+            ],
+            "description": "Display breadcrumbs on your Pagekit page"
+        },
+        {
+            "name": "bixie/formmaker",
+            "version": "1.4.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/bixie/formmaker/1.4.2.zip",
+                "reference": null,
+                "shasum": "78a9d0a59ef49b8e4879c72d1bee3cfc943f0d6a"
+            },
+            "require": {
+                "bixie/framework": "^0.1",
+                "google/recaptcha": "~1.1"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bixie",
+                    "email": "info@bixie.org",
+                    "homepage": "http://formmaker.bixie.org"
+                }
+            ],
+            "description": "Create forms in your Pagekit site. Build forms and manage the submissions."
+        },
+        {
+            "name": "bixie/framework",
+            "version": "0.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Bixie/pagekit-framework.git",
+                "reference": "e36573e7e7f26f0bb4843cd90d3bb98c73f4722d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Bixie/pagekit-framework/zipball/e36573e7e7f26f0bb4843cd90d3bb98c73f4722d",
+                "reference": "e36573e7e7f26f0bb4843cd90d3bb98c73f4722d",
+                "shasum": ""
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bixie\\Framework\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bixie",
+                    "email": "info@bixie.org",
+                    "homepage": "http://www.bixie.org"
+                }
+            ],
+            "description": "Framework for Bixie extensions.",
+            "time": "2016-04-18 15:11:13"
+        },
+        {
+            "name": "bixie/portfolio",
+            "version": "1.1.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/bixie/portfolio/1.1.3.zip",
+                "reference": null,
+                "shasum": ""
+            },
+            "require": {
+                "abeautifulsite/simpleimage": "2.5.*"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bixie",
+                    "email": "info@bixie.org",
+                    "homepage": "http://portfolio.bixie.org"
+                }
+            ],
+            "description": "Create a beautiful portfolio in your Pagekit site"
+        },
+        {
+            "name": "bixie/userprofile",
+            "version": "1.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/bixie/userprofile/1.2.1.zip",
+                "reference": null,
+                "shasum": "2e91041e4156a841133230b33011e187520223cd"
+            },
+            "require": {
+                "bixie/framework": "^0.1"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bixie",
+                    "email": "info@bixie.nl",
+                    "homepage": "http://userprofile.bixie.org"
+                }
+            ],
+            "description": "Userprofile for Pagekit"
+        },
+        {
+            "name": "google/recaptcha",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/recaptcha.git",
+                "reference": "2b7e00566afca82a38a1d3adb8e42c118006296e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/recaptcha/zipball/2b7e00566afca82a38a1d3adb8e42c118006296e",
+                "reference": "2b7e00566afca82a38a1d3adb8e42c118006296e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ReCaptcha\\": "src/ReCaptcha"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Client library for reCAPTCHA, a free service that protect websites from spam and abuse.",
+            "homepage": "http://www.google.com/recaptcha/",
+            "keywords": [
+                "Abuse",
+                "captcha",
+                "recaptcha",
+                "spam"
+            ],
+            "time": "2015-09-02 17:23:59"
+        },
+        {
+            "name": "lusitanian/oauth",
+            "version": "v0.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lusitanian/PHPoAuthLib.git",
+                "reference": "4ce8c488971410233eb3b1e6d9ac4e81debb41d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lusitanian/PHPoAuthLib/zipball/4ce8c488971410233eb3b1e6d9ac4e81debb41d5",
+                "reference": "4ce8c488971410233eb3b1e6d9ac4e81debb41d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "predis/predis": "0.8.*@dev",
+                "symfony/http-foundation": "~2.1"
+            },
+            "suggest": {
+                "ext-openssl": "Allows for usage of secure connections with the stream-based HTTP client.",
+                "predis/predis": "Allows using the Redis storage backend.",
+                "symfony/http-foundation": "Allows using the Symfony Session storage backend."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "OAuth": "src",
+                    "OAuth\\Unit": "tests"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Desberg",
+                    "email": "david@daviddesberg.com"
+                },
+                {
+                    "name": "Pieter Hordijk",
+                    "email": "info@pieterhordijk.com"
+                }
+            ],
+            "description": "PHP 5.3+ oAuth 1/2 Library",
+            "keywords": [
+                "Authentication",
+                "authorization",
+                "oauth",
+                "security"
+            ],
+            "time": "2015-09-09 06:43:02"
+        },
+        {
+            "name": "pagekit/analytics",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/analytics/1.0.0.zip",
+                "reference": null,
+                "shasum": "dbd41f1dcbd2f137ec4c169eef67ffadbd0c9f91"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "require": {
+                "lusitanian/oauth": "~0.3.5"
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "An analytics extension for your dashboard."
+        },
+        {
+            "name": "pagekit/blog",
+            "version": "1.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/blog/1.0.2.zip",
+                "reference": null,
+                "shasum": "3f63881e7eb8bc950594dd6fb800673b67d5a792"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "A blog extensions with a built-in comment system."
+        },
+        {
+            "name": "pagekit/hello",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/hello/1.0.0.zip",
+                "reference": null,
+                "shasum": "498aa067d57b34062199a3daa4fd4c4c44bcdddf"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "A blueprint to develop your own extensions."
+        },
+        {
+            "name": "pagekit/highlight",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/highlight/1.0.0.zip",
+                "reference": null,
+                "shasum": "9159503aaaaa4f887d3e6b4e73e38f3274e7d00d"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "image": "image.jpg"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "Add syntax highlighting to any source code displayed on your site."
+        },
+        {
+            "name": "pagekit/theme-one",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/theme-one/1.0.0.zip",
+                "reference": null,
+                "shasum": "6d49b3cbb1de15b4a3947890e7935b13de76f7f8"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app",
+                    "!/css",
+                    "/app/assets",
+                    "gulpfile.js",
+                    "bower.js",
+                    "package.js"
+                ]
+            },
+            "type": "pagekit-theme",
+            "extra": {
+                "image": "image.jpg"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "Pagekit's default theme."
+        },
+        {
+            "name": "pagekit/tinymce",
+            "version": "1.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://pagekit.com/package/pagekit/tinymce/1.0.2.zip",
+                "reference": null,
+                "shasum": "8ca836ba4ac29ab4cd89870da351b8bd6a92601b"
+            },
+            "archive": {
+                "exclude": [
+                    "node_modules",
+                    "!/app",
+                    "*.less",
+                    "/app/assets/tinymce/skins",
+                    "/app/assets/tinymce/tinymce.js",
+                    "/app/assets/tinymce/tinymce.min.js",
+                    "/app/assets/tinymce/tinymce.jquery.js",
+                    "/app/assets/tinymce/jquery.tinymce.min",
+                    "/app/assets/tinymce/plugins/**/*.js",
+                    "!/app/assets/tinymce/plugins/**/*.min.js"
+                ]
+            },
+            "type": "pagekit-extension",
+            "extra": {
+                "icon": "icon.svg",
+                "scripts": "scripts.php"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pagekit",
+                    "email": "info@pagekit.com",
+                    "homepage": "http://pagekit.com"
+                }
+            ],
+            "description": "Replace Pagekit's default editor with TinyMCE."
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

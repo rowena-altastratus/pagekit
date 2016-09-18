@@ -1,0 +1,24 @@
+{
+  "name": "bixie/framework",
+  "module": "bixie/framework",
+  "type": "pagekit-extension",
+  "version": "0.1.5",
+  "title": "Bixie Framework",
+  "description": "Framework for Bixie extensions.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bixie",
+      "email": "info@bixie.org",
+      "homepage": "http://www.bixie.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bixie\\Framework\\": "src"
+    }
+  },
+  "extra": {
+    "icon": "icon.svg"
+  }
+}
