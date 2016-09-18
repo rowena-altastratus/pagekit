@@ -43,4 +43,3 @@ Copyright [YOOtheme](http://www.yootheme.com) GmbH under the [MIT license](LICEN
 ## Credits
 
 [Half Dome Photo](http://www.youseethenew.com/landscape-outdoors/) by Brendan Lynch / [CC BY](http://creativecommons.org/licenses/by-nd/4.0/)
-# Pagekit Framework
